@@ -9,7 +9,7 @@ import org.insurgencedev.insurgencesets.libs.fo.Common;
 public class EcoQuestsBoostAddon extends InsurgenceSetsAddon {
 
     @Override
-    public void onAddonStart() {
+    public void onAddonReloadablesStart() {
         if (isDependentEnabled()) {
             registerEvent(new QuestsExperienceGainListener());
         }
