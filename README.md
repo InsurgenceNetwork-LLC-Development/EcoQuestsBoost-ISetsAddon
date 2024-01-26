@@ -7,7 +7,7 @@ Using the below settings, the player will receive a 3x boost on the amount of ta
 
 ```yaml
 Boosts:
-  - Namespace: MISC
+  - Namespace: ECO_QUESTS
     Type: Tasks
     Percent: false
     Settings:
